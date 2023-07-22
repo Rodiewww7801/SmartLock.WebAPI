@@ -1,0 +1,15 @@
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\bin\Debug\net6.0\SmartLock.EntityFramework.deps.json
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\bin\Debug\net6.0\SmartLock.EntityFramework.dll
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\bin\Debug\net6.0\SmartLock.EntityFramework.pdb
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\bin\Debug\net6.0\SmartLock.Domain.dll
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\bin\Debug\net6.0\SmartLock.Domain.pdb
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.csproj.AssemblyReference.cache
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.AssemblyInfoInputs.cache
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.AssemblyInfo.cs
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.csproj.CoreCompileInputs.cache
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.csproj.CopyComplete
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.dll
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\refint\SmartLock.EntityFramework.dll
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.pdb
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\ref\SmartLock.EntityFramework.dll

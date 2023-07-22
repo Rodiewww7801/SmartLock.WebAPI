@@ -1,0 +1,12 @@
+D:\repos\SmartLockAPI\SmartLock.Domain\bin\Debug\net6.0\SmartLock.Domain.deps.json
+D:\repos\SmartLockAPI\SmartLock.Domain\bin\Debug\net6.0\SmartLock.Domain.dll
+D:\repos\SmartLockAPI\SmartLock.Domain\bin\Debug\net6.0\SmartLock.Domain.pdb
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\SmartLock.Domain.csproj.AssemblyReference.cache
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\SmartLock.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\SmartLock.Domain.AssemblyInfoInputs.cache
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\SmartLock.Domain.AssemblyInfo.cs
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\SmartLock.Domain.csproj.CoreCompileInputs.cache
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\SmartLock.Domain.dll
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\refint\SmartLock.Domain.dll
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\SmartLock.Domain.pdb
+D:\repos\SmartLockAPI\SmartLock.Domain\obj\Debug\net6.0\ref\SmartLock.Domain.dll
