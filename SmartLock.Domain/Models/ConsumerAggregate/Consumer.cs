@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FaceDetection.Domain.Entities.ConsumerAggregate
+namespace SmartLock.Domain.Models.ConsumerAggregate
 {
 	public class Consumer
 	{
@@ -18,6 +18,5 @@ namespace FaceDetection.Domain.Entities.ConsumerAggregate
 		public string LastName { get; set; }
 		public string MiddleName { get; set; }
 		public SecurityLevelEnum SecurityLevel { get; set; }
-		public List<ConsumerFace> ConsumerFaces { get; set; }
 	}
 }

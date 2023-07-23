@@ -13,3 +13,5 @@ D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.Entit
 D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\refint\SmartLock.EntityFramework.dll
 D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.pdb
 D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\ref\SmartLock.EntityFramework.dll
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\bin\Debug\net6.0\SmartLock.EntityFramework.runtimeconfig.json
+D:\repos\SmartLockAPI\SmartLock.EntityFramework\obj\Debug\net6.0\SmartLock.EntityFramework.genruntimeconfig.cache

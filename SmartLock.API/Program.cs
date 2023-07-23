@@ -1,3 +1,5 @@
+using SmartLock.API.Configuration;
+
 namespace SmartLock.API
 {
 	public class Program
@@ -7,8 +9,10 @@ namespace SmartLock.API
 			var builder = WebApplication.CreateBuilder(args);
 
 			// Add services to the container.
-
-			builder.Services.AddControllers();
+			builder.Services
+				.ConfigureServices(builder.Configuration)
+				.AddDependencyGroup();
+				
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();

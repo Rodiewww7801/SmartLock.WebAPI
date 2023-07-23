@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FaceDetection.Domain.Entities.SmartLockAggregate
+namespace SmartLock.Domain.Models.SmartLockAggregate
 {
-	public class SmartLockUserAccess
+	public class SmartLockAccess
 	{
 		public enum AccessStateEnum
 		{
@@ -15,8 +15,9 @@ namespace FaceDetection.Domain.Entities.SmartLockAggregate
 		}
 
 		public string Id { get; set; }
-		public string UserId { get; set; }
+		public string ConsumerId { get; set; }
 		public string SmartLockId { get; set; }
-		public AccessStateEnum State { get; set; }
+		public DateTime DateOfIssue { get; set; }
+		public AccessStateEnum AccessState { get; set; }
 	}
 }
