@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartLock.EntityFramework.Configurations
+namespace SmartLock.EntityFramework.Context.Configurations
 {
     internal class ConsumerEntityTypeConfiguration : IEntityTypeConfiguration<Consumer>
     {

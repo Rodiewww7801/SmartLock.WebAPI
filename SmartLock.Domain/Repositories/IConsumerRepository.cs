@@ -9,8 +9,9 @@ namespace SmartLock.Domain.Repositories
 {
     public interface IConsumerRepository
 	{
-		Task<Consumer> GetConsumerById(string id);
-		Task AddConsumer(Consumer consumer);
-		Task UpdateConsumer(Consumer consumer);
+		Task<Consumer> GetConsumerByIdAsync(string id);
+		Task AddConsumerAsync(Consumer consumer);
+		void UpdateConsumer(Consumer consumer);
+		IQueryable<Consumer> GetConsumers();
 	}
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rrViOmXppu6gqSF8tXAdXOKVCDvNzMjR87JT8lVMEBRUTJ/+1/OUvEJb8af/NR0o+iuv0QiXl0BP6gBWmcp4mQ==",
+  "dgSpecHash": "NKqkXylQBKVoiIdXspUZM4NaS5tWqipPiDOWAtwL7B+3/CvGxmzSxnH1PGatKVTI+58uPrkpI6eWqmZ270/raA==",
   "success": true,
   "projectFilePath": "D:\\repos\\SmartLockAPI\\SmartLock.Domain\\SmartLock.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rodio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

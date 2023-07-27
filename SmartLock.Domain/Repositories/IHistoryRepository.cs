@@ -9,8 +9,8 @@ namespace SmartLock.Domain.Repositories
 {
 	public interface IHistoryRepository
 	{
-		Task<IQueryable<SmartLockConsumerHistory>> GetHistoriesByConsumerId(string consumerId);
-		Task<IQueryable<SmartLockConsumerHistory>> GetHistoriesBySmartLockId(string smartLockId);
-		Task AddHistory(SmartLockConsumerHistory history);
+		IQueryable<SmartLockConsumerHistory> GetHistoriesByConsumerId(string consumerId);
+		IQueryable<SmartLockConsumerHistory> GetHistoriesBySmartLockId(string smartLockId);
+		Task AddHistoryAsync(SmartLockConsumerHistory history);
 	}
 }

@@ -19,8 +19,4 @@
     <ProjectReference Include="..\SmartLock.Domain\SmartLock.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\_Impl\" />
-  </ItemGroup>
-
 </Project>

@@ -10,10 +10,11 @@ namespace SmartLock.Domain.Repositories
 {
 	public interface ISmartLockRepository
 	{
-		Task<SmartLockAggregate.SmartLock> GetSmartLockById(string id);
-		Task<IQueryable<SmartLockAccess>> GetAccessesBySmartLockId(string smartLockId);
-		Task<IQueryable<SmartLockAccess>> GetAccessesByConsumerId(string consumerId);
-		Task AddSmartLock(SmartLockAggregate.SmartLock smartLock);
-		Task UpdateSmartLock(SmartLockAggregate.SmartLock smartLock);
+		Task<SmartLockAggregate.SmartLock> GetSmartLockByIdAsync(string id);
+		IQueryable<SmartLockAccess> GetAccessesBySmartLockId(string smartLockId);
+		IQueryable<SmartLockAccess> GetAccessesByConsumerId(string consumerId);
+		Task AddSmartLockAsync(SmartLockAggregate.SmartLock smartLock);
+		Task AddSmartLockAccessAsync(SmartLockAccess access);
+		void UpdateSmartLock(SmartLockAggregate.SmartLock smartLock);
 	}
 }

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SmartLock.Domain.Models.SmartLockAggregate;
 
-namespace SmartLock.EntityFramework.Configurations
+namespace SmartLock.EntityFramework.Context.Configurations
 {
     internal class SmartLockAccessEntityTypeConfiguration : IEntityTypeConfiguration<SmartLockAccess>
     {

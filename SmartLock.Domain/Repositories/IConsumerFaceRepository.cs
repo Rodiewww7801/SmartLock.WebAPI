@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace SmartLock.Domain.Repositories
 {
-	public interface IConsumerFaceRepositories
+	public interface IConsumerFaceRepository
 	{
-		Task<IQueryable<ConsumerFace>> GetConsumerFacesByConsumerId(string consumerId);
-		Task<string> GetConsumerIdByFace(byte[] face);
-		Task AddConsumerFace(ConsumerFace consumerFace);
+		IQueryable<ConsumerFace> GetConsumerFacesByConsumerId(string consumerId);
+		Task AddConsumerFaceAsync(ConsumerFace consumerFace);
 	}
 }

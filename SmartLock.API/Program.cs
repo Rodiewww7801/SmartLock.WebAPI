@@ -1,4 +1,5 @@
 using SmartLock.API.Configuration;
+using SmartLock.API.Controllers;
 
 namespace SmartLock.API
 {
@@ -12,7 +13,7 @@ namespace SmartLock.API
 			builder.Services
 				.ConfigureServices(builder.Configuration)
 				.AddDependencyGroup();
-				
+
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
@@ -27,9 +28,8 @@ namespace SmartLock.API
 			}
 
 			app.UseHttpsRedirection();
-
 			app.UseAuthorization();
-
+			app.MapControllers();
 
 			app.MapControllers();
 

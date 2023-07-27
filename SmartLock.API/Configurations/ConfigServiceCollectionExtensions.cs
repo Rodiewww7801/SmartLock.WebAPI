@@ -1,5 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SmartLock.API.Handlers;
+using SmartLock.API.Handlers._Impl;
+using SmartLock.Domain.Unity;
 using SmartLock.EntityFramework.Context;
+using SmartLock.EntityFramework.Unity;
 
 namespace SmartLock.API.Configuration
 {
@@ -9,14 +13,14 @@ namespace SmartLock.API.Configuration
 		public static IServiceCollection ConfigureServices(this IServiceCollection service, IConfiguration configuration)
 		{
 			service.AddControllers();
-			service.AddDbContext<SmartLockDBContext>(options => 
-				options.UseSqlServer(configuration.GetConnectionString("EFDefaultConnection"))
-			);
+			EFBootstrapper.ConfigureServices(service, configuration);
 			return service;
 		}
 		public static IServiceCollection AddDependencyGroup(this IServiceCollection service) 
 		{
-			
+			EFBootstrapper.RegisterDependecies(service);
+			DomainBootstrapper.RegisterDependecies(service);
+			service.AddScoped<IConsumerEventHandler, ConsumerEventHandler>();
 			return service;
 		}
 	}
