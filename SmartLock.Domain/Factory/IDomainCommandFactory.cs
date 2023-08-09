@@ -1,4 +1,4 @@
-﻿using SmartLock.Domain.Services.Commands;
+﻿using SmartLock.Domain.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;

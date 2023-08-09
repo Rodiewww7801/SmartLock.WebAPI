@@ -5,9 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLock.Domain", "SmartLock.Domain\SmartLock.Domain.csproj", "{DBBAD7F3-40C0-4BBE-B029-E0C15CC9FCCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLock.EntityFramework", "SmartLock.EntityFramework\SmartLock.EntityFramework.csproj", "{EA697272-2067-467B-B979-335AB6829D17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLock.EntityFramework", "SmartLock.EntityFramework\SmartLock.EntityFramework.csproj", "{EA697272-2067-467B-B979-335AB6829D17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLock.API", "SmartLock.API\SmartLock.API.csproj", "{54F1CA37-3A48-4EE2-8B9D-0F2FABD60FDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLock.Auth", "SmartLock.Auth\SmartLock.Auth.csproj", "{EB79A408-8F17-4AFB-8FB8-318FCDF51882}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartLock.WebAPI", "SmartLock.WebAPI\SmartLock.WebAPI.csproj", "{669F7195-CB14-438C-AFAA-EB34CEE502D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{EA697272-2067-467B-B979-335AB6829D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA697272-2067-467B-B979-335AB6829D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA697272-2067-467B-B979-335AB6829D17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54F1CA37-3A48-4EE2-8B9D-0F2FABD60FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54F1CA37-3A48-4EE2-8B9D-0F2FABD60FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54F1CA37-3A48-4EE2-8B9D-0F2FABD60FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54F1CA37-3A48-4EE2-8B9D-0F2FABD60FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB79A408-8F17-4AFB-8FB8-318FCDF51882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB79A408-8F17-4AFB-8FB8-318FCDF51882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB79A408-8F17-4AFB-8FB8-318FCDF51882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB79A408-8F17-4AFB-8FB8-318FCDF51882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669F7195-CB14-438C-AFAA-EB34CEE502D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669F7195-CB14-438C-AFAA-EB34CEE502D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669F7195-CB14-438C-AFAA-EB34CEE502D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669F7195-CB14-438C-AFAA-EB34CEE502D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
